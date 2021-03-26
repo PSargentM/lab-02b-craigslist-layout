@@ -1,0 +1,95 @@
+main {
+    display: grid;
+    height: 1000px;
+    max-width: 900px;
+    margin: auto;
+    grid-template-columns: 150px 1fr 150px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.nav {
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
+    margin: 0px 3px;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 75px 1fr;
+}
+    .header {
+        border-style: solid;
+        border-color: dimgray;
+        border-width: 1px;
+        margin: 0px;
+    }
+    .features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+        .left-column {
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+        }
+            .comm {
+                border-style: solid;
+                border-color: dimgray;
+                border-width: 1px;
+                margin: 3px 1.5px 3px 0px;
+            }
+            .serv {
+                border-style: solid;
+                border-color: dimgray;
+                border-width: 1px;
+                margin: 0px 1.5px 3px 0px;
+            }
+            .disc {
+                border-style: solid;
+                border-color: dimgray;
+                border-width: 1px;
+                margin: 0px 1.5px 0px 0px;
+            }
+        
+        .middle-column {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+        }
+            .hous {
+                border-style: solid;
+                border-color: dimgray;
+                border-width: 1px;
+                margin: 3px 1.5px 3px 1.5px;
+            }
+            .sale {
+                border-style: solid;
+                border-color: dimgray;
+                border-width: 1px;
+                margin: 0px 1.5px 0px 1.5px;
+            }
+
+        .right-column {
+            display: grid;
+            grid-template-rows: 1fr 150px;
+        }
+            .job {
+                border-style: solid;
+                border-color: dimgray;
+                border-width: 1px;
+                margin: 3px 0px 3px 1.5px;
+            }
+            .gig {
+                border-style: solid;
+                border-color: dimgray;
+                border-width: 1px;
+                margin-left: 1.5px;
+            }
+
+.location-list {
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
+    margin: 0px 3px;
+}
+
